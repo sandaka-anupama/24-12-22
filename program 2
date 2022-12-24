@@ -1,0 +1,17 @@
+
+#LEAP YEAR or NOT
+n=int(input('Enter a year:'))
+if n%100!=0 and n%4==0:
+    print('Leap Year')
+elif n%400==0:
+    print('Leap year')
+else:
+    print('Not a leap year')
+output:
+=================================================== RESTART: C:\Users\S ANUPAMA\AppData\Local\Programs\Python\Python311\assignment.py ==================================================
+Enter a year:2016
+Leap Year
+
+=================================================== RESTART: C:\Users\S ANUPAMA\AppData\Local\Programs\Python\Python311\assignment.py ==================================================
+Enter a year:2007
+Not a leap year
