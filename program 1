@@ -1,0 +1,15 @@
+#PALINDROME or NOT
+s=input()
+temp=s
+if s[::-1]==temp:
+    print('Palindrome')
+else:
+    print('Not palindrome')
+output:
+=================================================== RESTART: C:\Users\S ANUPAMA\AppData\Local\Programs\Python\Python311\assignment.py ==================================================
+12321
+Palindrome
+
+=================================================== RESTART: C:\Users\S ANUPAMA\AppData\Local\Programs\Python\Python311\assignment.py ==================================================
+1234
+Not palindrome
